@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  background-color: rgba(0,0,0,0.5);
+  font-family: Helvetica, sans-serif;
+  padding: 0px;
+  position: relative;
+}
+
+#middle-float {
+  width: 800px;
+  height: 533px;
+  vertical-align: middle;
+  margin: 100px auto;
+  border-radius: 8px;
+}
+
+#left-side {
+  background-image: url('bg_alton_brown_half.jpg');
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  margin: 0px;
+  border: 0px;
+}
+
+#right-side {
+  background-color: #FFF;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  border: 0px;
+  padding: 30px;
+}
+
+#email-input {
+  margin: auto;
+  display: block;
+}
+
+#pass-input {
+  margin: auto;
+  display: block;
+}
+
+#cont-button {
+  margin: auto;
+}
+
+#facebook {
+  margin: auto;
+}
