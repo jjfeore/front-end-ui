@@ -18,6 +18,8 @@ body {
   vertical-align: middle;
   margin: 100px auto;
   border-radius: 8px;
+  position: relative;
+  overflow: hidden;
 }
 
 #left-side {
@@ -28,6 +30,9 @@ body {
   display: inline-block;
   margin: 0px;
   border: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 #right-side {
@@ -39,22 +44,93 @@ body {
   margin: 0px;
   border: 0px;
   padding: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
-#email-input {
-  margin: auto;
-  display: block;
+#right-side p {
+  margin: 15px auto;
+  font-size: 11px;
+  width: 224px;
+  color: #AAA;
 }
 
-#pass-input {
+#right-side a {
+  color: #717171;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#email-input, #pass-input {
   margin: auto;
   display: block;
+  background-color: rgb(240,240,240);
+  border: 0px;
+  box-shadow: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(51,51,51);
+  font-size: 14px;
+  width: 268px;
+  margin-bottom: 7px;
 }
 
 #cont-button {
-  margin: auto;
+  margin: 3px auto 0px auto;
+  border-radius: 4px;
+  height: 36px;
+  width: 268px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #bd081c;
+  color: #FFF;
 }
 
 #facebook {
-  margin: auto;
+  margin: 9px auto 0px auto;
+  border-radius: 4px;
+  height: 36px;
+  width: 268px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #4267b2;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #555;
+  margin: 5px 26px 16px 26px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin: 12px auto 3px auto;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #b5b5b5;
+  margin: 0px 26px 30px 26px;
+}
+
+#login {
+  position: absolute;
+  top: -75px;
+  right: 25px;
+  height: 36px;
+  padding: 0px 43px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #444;
+  background-color: #ebebeb;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
 }
