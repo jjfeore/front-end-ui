@@ -1,5 +1,11 @@
-# Pinterest Registration Page - Stretch UI
+#Front End UI Stretch Projects
+
+## Medium Blog Roll - Stretch UI
+*22 MAR 2017*
+Started at 0910 on attempting to replicate the blog roll from Medium.
+
+## Pinterest Registration Page - Stretch UI
 *20 MAR 2017*
-This page is a quick stretch lab assignment for Code Fellows. This is my attempt to recreate the Pinterest registration page in 75 minutes or less. The goal is to mockup a rough approximation of the registration page, without any of the necessary functionality. In so far as possible, I will aim to make this page and future stretch UI pages responsive. 
+This page is a quick stretch lab assignment for Code Fellows. This is my attempt to recreate the Pinterest registration page in 75 minutes or less. The goal is to mockup a rough approximation of the registration page, without any of the necessary functionality. In so far as possible, I will aim to make this page and future stretch UI pages responsive.
 
 **Author: James Feore**
